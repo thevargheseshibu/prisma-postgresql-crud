@@ -1,0 +1,7 @@
+const newUser = await prisma.user.create({
+data: {
+name: 'Alice',
+email: 'alice@example.com',
+},
+});
+console.log(newUser);
