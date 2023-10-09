@@ -1,0 +1,5 @@
+const updatedUser = await prisma.user.update({
+where: { id: 1 },
+data: { name: 'Updated Name' },
+});
+console.log(updatedUser);
