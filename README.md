@@ -1,4 +1,4 @@
-# Prisma Node.js Project
+# Prisma Postgresql Node.js Project
 
 
 
@@ -17,8 +17,8 @@
 ### Clone the Repository
 
     
-    git clone https://github.com/your-username/your-prisma-project.git
-    cd your-prisma-project 
+    git clone https://github.com/thevargheseshibu/prisma-postgresql-crud.git
+    cd prisma-postgresql-crud
     
 
 ### Install Dependencies
