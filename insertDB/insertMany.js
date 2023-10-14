@@ -3,23 +3,18 @@ const prisma = new PrismaClient({log:["query"]});
 
 async function createUser() {
   try {
-    const newUser = await prisma.user.create({
-      data: {
-        name: "deanef",
-        email: "deanf1@123.com",
+    const newUser = await prisma.user.createMany({
+      data: [{
+        name: "deanefe",
+        email: "deanf1ee@123.com",
         age: 27,
-        UserPreference:{
-          create:{
-            emailUpdates:true,
-          }
-        }
-      },
-      // include:{
-      //  UserPreference:true,
-      // },
-      select:{
-        name:true
-      }
+
+      },{
+        name: "Same",
+        email: "Same@123.com",
+        age: 26,
+      }],
+     
     });
 
     console.log("User created:", newUser);
