@@ -6,6 +6,8 @@
 
 ## Getting Started
 
+![home](https://github.com/thevargheseshibu/prisma-postgresql-crud/blob/main/images/home.png)
+
 ### Prerequisites
 
     Before you begin, ensure you have met the following requirements:
